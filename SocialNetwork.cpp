@@ -4,7 +4,7 @@
 
 #include <iostream>
 #include <string>
-
+#include <memory>
 #include "SocialNetwork.h"
 
 SocialNetwork::SocialNetwork(const std::string& username, const std::string& password) 
