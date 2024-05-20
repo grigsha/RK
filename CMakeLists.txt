@@ -17,7 +17,7 @@ set(SOURCE_FILES
     ConceptualExample.cpp
     SocialNetworkingProgram.cpp
 )
-add_library(project_lib STATIC ${PROJECT_SOURCES} ${PROJECT_HEADERS})
+add_library(project_lib STATIC ${SOURCE_FILES} ${HEADER_FILES})
 
 
 target_include_directories(project_lib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
