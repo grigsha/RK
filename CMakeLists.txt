@@ -11,15 +11,21 @@ set(HEADER_FILES
 )
 
 set(SOURCE_FILES
-    Program.cpp
     Facebook.cpp
     Twitter.cpp
     SocialNetwork.cpp
     ConceptualExample.cpp
     SocialNetworkingProgram.cpp
 )
+add_library(project_lib STATIC ${PROJECT_SOURCES} ${PROJECT_HEADERS})
 
-add_executable(RK ${SOURCE_FILES} ${HEADER_FILES})
+
+target_include_directories(project_lib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+
+
+add_executable(${PROJECT_NAME} Program.cpp)
+target_link_libraries(${PROJECT_NAME} project_lib)
+
 
 enable_testing()
 
