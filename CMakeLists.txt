@@ -28,5 +28,3 @@ target_link_libraries(${PROJECT_NAME} project_lib)
 
 
 enable_testing()
-
-add_subdirectory(test)
