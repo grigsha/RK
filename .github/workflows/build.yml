@@ -1,4 +1,4 @@
-name: Build Project
+name: CMake Build
 
 on:
   push:
@@ -10,19 +10,36 @@ jobs:
 
   build:
     runs-on: ubuntu-latest
-    
+
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
+    - uses: actions/checkout@v3
+
+    - name: Get Google Test
+      run: |
+        git clone https://github.com/google/googletest.git ${{github.workspace}}/googletest
+        cd ${{github.workspace}}/googletest
+        git checkout release-1.12.1
+
+    - name: Create Build Directory
+      run: |
+        mkdir -p ${{github.workspace}}/build
+        rm -rf ${{github.workspace}}/build/*
 
     - name: Configure CMake
-      run: cmake -B ${{github.workspace}}/build -DCMAKE_BUILD_TYPE=Release
+      run: cmake -S ${{github.workspace}} -B ${{github.workspace}}/build -DCMAKE_BUILD_TYPE=Release
 
     - name: Build
       run: cmake --build ${{github.workspace}}/build --config Release
 
-    - name: Upload artifact
-      uses: actions/upload-artifact@v3
+    - name: Test
+      working-directory: ${{github.workspace}}/build
+      run: ctest -C Release
+
+    - name: List Build Directory
+      run: ls -lR ${{github.workspace}}/build
+
+    - name: Upload Build Artifacts
+      uses: actions/upload-artifact@v2
       with:
-        name: executable
-        path: ${{github.workspace}}/build/BuilderDesignPattern
+        name: build-artifacts
+        path: ${{github.workspace}}/build
