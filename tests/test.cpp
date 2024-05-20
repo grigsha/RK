@@ -1,32 +1,57 @@
-#include <gtest/gtest.h>
-#include "SocialNetwork.h"
-#include "Facebook.h"
-#include "Twitter.h"
+#include "gtest/gtest.h"
+#include <sstream>
+#include <memory>
+#include "../ConceptualExample.cpp"
 
-// Тест для класса Facebook
-TEST(FacebookTest, PostStatus) {
-    Facebook fb("user1", "password123");
-    std::string status = "Hello, world!";
-    fb.postStatus(status);
-    ASSERT_EQ(fb.getStatus(), status);
+TEST(TemplateMethodTest, ConcreteClass1) {
+    std::stringstream output;
+    std::streambuf* oldCoutBuf = std::cout.rdbuf(output.rdbuf());
+
+    std::shared_ptr<AbstractClass> concreteClass1 = std::make_shared<ConcreteClass1>();
+    concreteClass1->TemplateMethod();
+
+    std::cout.rdbuf(oldCoutBuf);
+    std::string expectedOutput = "AbstractClass says: I am doing the bulk of the work\n"
+                                 "ConcreteClass1 says: Implemented Operation1\n"
+                                 "AbstractClass says: But I let subclasses override some operations\n"
+                                 "AbstractClass says: But I am doing the bulk of the work anyway\n"
+                                 "ConcreteClass1 says: Implemented Operation2\n"
+                                 "AbstractClass says: But I am doing the bulk of the work anyway\n";
+    EXPECT_EQ(output.str(), expectedOutput);
 }
 
-// Тест для класса Twitter
-TEST(TwitterTest, PostTweet) {
-    Twitter twitter("user2", "password456");
-    std::string tweet = "This is a tweet!";
-    twitter.postTweet(tweet);
-    ASSERT_EQ(twitter.getTweets().front(), tweet);
+TEST(TemplateMethodTest, ConcreteClass2) {
+    std::stringstream output;
+    std::streambuf* oldCoutBuf = std::cout.rdbuf(output.rdbuf());
+
+    std::shared_ptr<AbstractClass> concreteClass2 = std::make_shared<ConcreteClass2>();
+    concreteClass2->TemplateMethod();
+
+    std::cout.rdbuf(oldCoutBuf);
+    std::string expectedOutput = "ConcreteClass2 says: Overridden BaseOperation1\n"
+                                 "ConcreteClass2 says: Implemented Operation1\n"
+                                 "AbstractClass says: But I let subclasses override some operations\n"
+                                 "ConcreteClass2 says: Overridden Hook1\n"
+                                 "ConcreteClass2 says: Implemented Operation2\n"
+                                 "AbstractClass says: But I am doing the bulk of the work anyway\n";
+    EXPECT_EQ(output.str(), expectedOutput);
 }
 
-// Тест для класса SocialNetwork
-TEST(SocialNetworkTest, Login) {
-    SocialNetwork* network = new Facebook("user3", "password789");
-    ASSERT_TRUE(network->login("user3", "password789"));
-    delete network;
+
+TEST(TemplateMethodTest, TemplateMethodEx) {
+    std::stringstream output;
+    std::streambuf* oldCoutBuf = std::cout.rdbuf(output.rdbuf());
+
+    std::shared_ptr<AbstractClass> concreteClass1 = std::make_shared<ConcreteClass1>();
+    concreteClass1->TemplateMethodEx();
+
+    std::cout.rdbuf(oldCoutBuf);
+   
+    EXPECT_TRUE(output.str().empty());
 }
 
-int main(int argc, char** argv) {
+
+int main(int argc, char **argv) {
     ::testing::InitGoogleTest(&argc, argv);
     return RUN_ALL_TESTS();
 }

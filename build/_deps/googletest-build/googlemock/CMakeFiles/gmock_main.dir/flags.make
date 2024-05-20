@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src/googlemock/include -isystem /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src/googlemock -isystem /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src/googletest/include -isystem /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src/googletest
+CXX_INCLUDES = -isystem /home/masha/Documents/RK/build/_deps/googletest-src/googlemock/include -isystem /home/masha/Documents/RK/build/_deps/googletest-src/googlemock -isystem /home/masha/Documents/RK/build/_deps/googletest-src/googletest/include -isystem /home/masha/Documents/RK/build/_deps/googletest-src/googletest
 
-CXX_FLAGS = -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+CXX_FLAGS = -std=c++14 -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
 

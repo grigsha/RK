@@ -1,4 +1,4 @@
-# Install script for directory: /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-subbuild
+# Install script for directory: /home/masha/Documents/RK/build/_deps/googletest-subbuild
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-subbuild/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/masha/Documents/RK/build/_deps/googletest-subbuild/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

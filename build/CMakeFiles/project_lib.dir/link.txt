@@ -1,0 +1,2 @@
+/usr/bin/ar qc libproject_lib.a CMakeFiles/project_lib.dir/Facebook.cpp.o CMakeFiles/project_lib.dir/Twitter.cpp.o CMakeFiles/project_lib.dir/SocialNetwork.cpp.o CMakeFiles/project_lib.dir/ConceptualExample.cpp.o CMakeFiles/project_lib.dir/SocialNetworkingProgram.cpp.o
+/usr/bin/ranlib libproject_lib.a

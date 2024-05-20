@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern
+CMAKE_SOURCE_DIR = /home/masha/Documents/RK
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build
+CMAKE_BINARY_DIR = /home/masha/Documents/RK/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/CMakeFiles /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/masha/Documents/RK/build/CMakeFiles /home/masha/Documents/RK/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/masha/Documents/RK/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -172,17 +172,43 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named TemplatePattern_lib
+# Target rules for targets named project_lib
 
 # Build rule for target.
-TemplatePattern_lib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TemplatePattern_lib
-.PHONY : TemplatePattern_lib
+project_lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 project_lib
+.PHONY : project_lib
 
 # fast build rule for target.
-TemplatePattern_lib/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TemplatePattern_lib.dir/build.make CMakeFiles/TemplatePattern_lib.dir/build
-.PHONY : TemplatePattern_lib/fast
+project_lib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_lib.dir/build.make CMakeFiles/project_lib.dir/build
+.PHONY : project_lib/fast
+
+#=============================================================================
+# Target rules for targets named RK
+
+# Build rule for target.
+RK: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RK
+.PHONY : RK
+
+# fast build rule for target.
+RK/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RK.dir/build.make CMakeFiles/RK.dir/build
+.PHONY : RK/fast
+
+#=============================================================================
+# Target rules for targets named runTests
+
+# Build rule for target.
+runTests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 runTests
+.PHONY : runTests
+
+# fast build rule for target.
+runTests/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/runTests.dir/build.make tests/CMakeFiles/runTests.dir/build
+.PHONY : runTests/fast
 
 #=============================================================================
 # Target rules for targets named gmock
@@ -236,36 +262,12 @@ gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
-CMakeFiles/3.27.4/CompilerIdCXX/CMakeCXXCompilerId.o: CMakeFiles/3.27.4/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
-.PHONY : CMakeFiles/3.27.4/CompilerIdCXX/CMakeCXXCompilerId.o
-
-# target to build an object file
-CMakeFiles/3.27.4/CompilerIdCXX/CMakeCXXCompilerId.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TemplatePattern_lib.dir/build.make CMakeFiles/TemplatePattern_lib.dir/CMakeFiles/3.27.4/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
-.PHONY : CMakeFiles/3.27.4/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
-
-CMakeFiles/3.27.4/CompilerIdCXX/CMakeCXXCompilerId.i: CMakeFiles/3.27.4/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
-.PHONY : CMakeFiles/3.27.4/CompilerIdCXX/CMakeCXXCompilerId.i
-
-# target to preprocess a source file
-CMakeFiles/3.27.4/CompilerIdCXX/CMakeCXXCompilerId.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TemplatePattern_lib.dir/build.make CMakeFiles/TemplatePattern_lib.dir/CMakeFiles/3.27.4/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
-.PHONY : CMakeFiles/3.27.4/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
-
-CMakeFiles/3.27.4/CompilerIdCXX/CMakeCXXCompilerId.s: CMakeFiles/3.27.4/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
-.PHONY : CMakeFiles/3.27.4/CompilerIdCXX/CMakeCXXCompilerId.s
-
-# target to generate assembly for a file
-CMakeFiles/3.27.4/CompilerIdCXX/CMakeCXXCompilerId.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TemplatePattern_lib.dir/build.make CMakeFiles/TemplatePattern_lib.dir/CMakeFiles/3.27.4/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
-.PHONY : CMakeFiles/3.27.4/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
-
 ConceptualExample.o: ConceptualExample.cpp.o
 .PHONY : ConceptualExample.o
 
 # target to build an object file
 ConceptualExample.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TemplatePattern_lib.dir/build.make CMakeFiles/TemplatePattern_lib.dir/ConceptualExample.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_lib.dir/build.make CMakeFiles/project_lib.dir/ConceptualExample.cpp.o
 .PHONY : ConceptualExample.cpp.o
 
 ConceptualExample.i: ConceptualExample.cpp.i
@@ -273,7 +275,7 @@ ConceptualExample.i: ConceptualExample.cpp.i
 
 # target to preprocess a source file
 ConceptualExample.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TemplatePattern_lib.dir/build.make CMakeFiles/TemplatePattern_lib.dir/ConceptualExample.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_lib.dir/build.make CMakeFiles/project_lib.dir/ConceptualExample.cpp.i
 .PHONY : ConceptualExample.cpp.i
 
 ConceptualExample.s: ConceptualExample.cpp.s
@@ -281,7 +283,7 @@ ConceptualExample.s: ConceptualExample.cpp.s
 
 # target to generate assembly for a file
 ConceptualExample.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TemplatePattern_lib.dir/build.make CMakeFiles/TemplatePattern_lib.dir/ConceptualExample.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_lib.dir/build.make CMakeFiles/project_lib.dir/ConceptualExample.cpp.s
 .PHONY : ConceptualExample.cpp.s
 
 Facebook.o: Facebook.cpp.o
@@ -289,7 +291,7 @@ Facebook.o: Facebook.cpp.o
 
 # target to build an object file
 Facebook.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TemplatePattern_lib.dir/build.make CMakeFiles/TemplatePattern_lib.dir/Facebook.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_lib.dir/build.make CMakeFiles/project_lib.dir/Facebook.cpp.o
 .PHONY : Facebook.cpp.o
 
 Facebook.i: Facebook.cpp.i
@@ -297,7 +299,7 @@ Facebook.i: Facebook.cpp.i
 
 # target to preprocess a source file
 Facebook.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TemplatePattern_lib.dir/build.make CMakeFiles/TemplatePattern_lib.dir/Facebook.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_lib.dir/build.make CMakeFiles/project_lib.dir/Facebook.cpp.i
 .PHONY : Facebook.cpp.i
 
 Facebook.s: Facebook.cpp.s
@@ -305,7 +307,7 @@ Facebook.s: Facebook.cpp.s
 
 # target to generate assembly for a file
 Facebook.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TemplatePattern_lib.dir/build.make CMakeFiles/TemplatePattern_lib.dir/Facebook.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_lib.dir/build.make CMakeFiles/project_lib.dir/Facebook.cpp.s
 .PHONY : Facebook.cpp.s
 
 Program.o: Program.cpp.o
@@ -313,7 +315,7 @@ Program.o: Program.cpp.o
 
 # target to build an object file
 Program.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TemplatePattern_lib.dir/build.make CMakeFiles/TemplatePattern_lib.dir/Program.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RK.dir/build.make CMakeFiles/RK.dir/Program.cpp.o
 .PHONY : Program.cpp.o
 
 Program.i: Program.cpp.i
@@ -321,7 +323,7 @@ Program.i: Program.cpp.i
 
 # target to preprocess a source file
 Program.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TemplatePattern_lib.dir/build.make CMakeFiles/TemplatePattern_lib.dir/Program.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RK.dir/build.make CMakeFiles/RK.dir/Program.cpp.i
 .PHONY : Program.cpp.i
 
 Program.s: Program.cpp.s
@@ -329,7 +331,7 @@ Program.s: Program.cpp.s
 
 # target to generate assembly for a file
 Program.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TemplatePattern_lib.dir/build.make CMakeFiles/TemplatePattern_lib.dir/Program.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RK.dir/build.make CMakeFiles/RK.dir/Program.cpp.s
 .PHONY : Program.cpp.s
 
 SocialNetwork.o: SocialNetwork.cpp.o
@@ -337,7 +339,7 @@ SocialNetwork.o: SocialNetwork.cpp.o
 
 # target to build an object file
 SocialNetwork.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TemplatePattern_lib.dir/build.make CMakeFiles/TemplatePattern_lib.dir/SocialNetwork.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_lib.dir/build.make CMakeFiles/project_lib.dir/SocialNetwork.cpp.o
 .PHONY : SocialNetwork.cpp.o
 
 SocialNetwork.i: SocialNetwork.cpp.i
@@ -345,7 +347,7 @@ SocialNetwork.i: SocialNetwork.cpp.i
 
 # target to preprocess a source file
 SocialNetwork.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TemplatePattern_lib.dir/build.make CMakeFiles/TemplatePattern_lib.dir/SocialNetwork.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_lib.dir/build.make CMakeFiles/project_lib.dir/SocialNetwork.cpp.i
 .PHONY : SocialNetwork.cpp.i
 
 SocialNetwork.s: SocialNetwork.cpp.s
@@ -353,7 +355,7 @@ SocialNetwork.s: SocialNetwork.cpp.s
 
 # target to generate assembly for a file
 SocialNetwork.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TemplatePattern_lib.dir/build.make CMakeFiles/TemplatePattern_lib.dir/SocialNetwork.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_lib.dir/build.make CMakeFiles/project_lib.dir/SocialNetwork.cpp.s
 .PHONY : SocialNetwork.cpp.s
 
 SocialNetworkingProgram.o: SocialNetworkingProgram.cpp.o
@@ -361,7 +363,7 @@ SocialNetworkingProgram.o: SocialNetworkingProgram.cpp.o
 
 # target to build an object file
 SocialNetworkingProgram.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TemplatePattern_lib.dir/build.make CMakeFiles/TemplatePattern_lib.dir/SocialNetworkingProgram.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_lib.dir/build.make CMakeFiles/project_lib.dir/SocialNetworkingProgram.cpp.o
 .PHONY : SocialNetworkingProgram.cpp.o
 
 SocialNetworkingProgram.i: SocialNetworkingProgram.cpp.i
@@ -369,7 +371,7 @@ SocialNetworkingProgram.i: SocialNetworkingProgram.cpp.i
 
 # target to preprocess a source file
 SocialNetworkingProgram.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TemplatePattern_lib.dir/build.make CMakeFiles/TemplatePattern_lib.dir/SocialNetworkingProgram.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_lib.dir/build.make CMakeFiles/project_lib.dir/SocialNetworkingProgram.cpp.i
 .PHONY : SocialNetworkingProgram.cpp.i
 
 SocialNetworkingProgram.s: SocialNetworkingProgram.cpp.s
@@ -377,7 +379,7 @@ SocialNetworkingProgram.s: SocialNetworkingProgram.cpp.s
 
 # target to generate assembly for a file
 SocialNetworkingProgram.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TemplatePattern_lib.dir/build.make CMakeFiles/TemplatePattern_lib.dir/SocialNetworkingProgram.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_lib.dir/build.make CMakeFiles/project_lib.dir/SocialNetworkingProgram.cpp.s
 .PHONY : SocialNetworkingProgram.cpp.s
 
 Twitter.o: Twitter.cpp.o
@@ -385,7 +387,7 @@ Twitter.o: Twitter.cpp.o
 
 # target to build an object file
 Twitter.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TemplatePattern_lib.dir/build.make CMakeFiles/TemplatePattern_lib.dir/Twitter.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_lib.dir/build.make CMakeFiles/project_lib.dir/Twitter.cpp.o
 .PHONY : Twitter.cpp.o
 
 Twitter.i: Twitter.cpp.i
@@ -393,7 +395,7 @@ Twitter.i: Twitter.cpp.i
 
 # target to preprocess a source file
 Twitter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TemplatePattern_lib.dir/build.make CMakeFiles/TemplatePattern_lib.dir/Twitter.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_lib.dir/build.make CMakeFiles/project_lib.dir/Twitter.cpp.i
 .PHONY : Twitter.cpp.i
 
 Twitter.s: Twitter.cpp.s
@@ -401,7 +403,7 @@ Twitter.s: Twitter.cpp.s
 
 # target to generate assembly for a file
 Twitter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TemplatePattern_lib.dir/build.make CMakeFiles/TemplatePattern_lib.dir/Twitter.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_lib.dir/build.make CMakeFiles/project_lib.dir/Twitter.cpp.s
 .PHONY : Twitter.cpp.s
 
 # Help Target
@@ -417,14 +419,13 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... TemplatePattern_lib"
+	@echo "... RK"
 	@echo "... gmock"
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
-	@echo "... CMakeFiles/3.27.4/CompilerIdCXX/CMakeCXXCompilerId.o"
-	@echo "... CMakeFiles/3.27.4/CompilerIdCXX/CMakeCXXCompilerId.i"
-	@echo "... CMakeFiles/3.27.4/CompilerIdCXX/CMakeCXXCompilerId.s"
+	@echo "... project_lib"
+	@echo "... runTests"
 	@echo "... ConceptualExample.o"
 	@echo "... ConceptualExample.i"
 	@echo "... ConceptualExample.s"

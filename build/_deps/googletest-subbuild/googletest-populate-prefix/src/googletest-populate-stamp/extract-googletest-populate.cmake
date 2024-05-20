@@ -5,8 +5,8 @@ cmake_minimum_required(VERSION 3.5)
 
 # Make file names absolute:
 #
-get_filename_component(filename "/home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-subbuild/googletest-populate-prefix/src/release-1.11.0.zip" ABSOLUTE)
-get_filename_component(directory "/home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src" ABSOLUTE)
+get_filename_component(filename "/home/masha/Documents/RK/build/_deps/googletest-subbuild/googletest-populate-prefix/src/release-1.11.0.zip" ABSOLUTE)
+get_filename_component(directory "/home/masha/Documents/RK/build/_deps/googletest-src" ABSOLUTE)
 
 message(STATUS "extracting...
      src='${filename}'

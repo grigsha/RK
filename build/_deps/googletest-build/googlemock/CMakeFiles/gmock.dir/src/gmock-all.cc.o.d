@@ -1,8 +1,8 @@
 _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: \
- /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src/googlemock/src/gmock-all.cc \
+ /home/masha/Documents/RK/build/_deps/googletest-src/googlemock/src/gmock-all.cc \
  /usr/include/stdc-predef.h \
- /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src/googlemock/include/gmock/gmock.h \
- /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src/googlemock/include/gmock/gmock-actions.h \
+ /home/masha/Documents/RK/build/_deps/googletest-src/googlemock/include/gmock/gmock.h \
+ /home/masha/Documents/RK/build/_deps/googletest-src/googlemock/include/gmock/gmock-actions.h \
  /usr/include/errno.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -19,7 +19,6 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
- /usr/include/c++/13/pstl/pstl_config.h \
  /usr/include/c++/13/bits/functexcept.h \
  /usr/include/c++/13/bits/exception_defines.h \
  /usr/include/c++/13/bits/cpp_type_traits.h \
@@ -76,9 +75,7 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /usr/include/c++/13/bits/std_abs.h \
- /usr/include/c++/13/pstl/glue_algorithm_defs.h \
- /usr/include/c++/13/pstl/execution_defs.h /usr/include/c++/13/functional \
+ /usr/include/c++/13/bits/std_abs.h /usr/include/c++/13/functional \
  /usr/include/c++/13/bits/stl_function.h \
  /usr/include/c++/13/backward/binders.h /usr/include/c++/13/tuple \
  /usr/include/c++/13/bits/uses_allocator.h \
@@ -86,29 +83,13 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: \
  /usr/include/c++/13/bits/functional_hash.h \
  /usr/include/c++/13/bits/hash_bytes.h /usr/include/c++/13/bits/refwrap.h \
  /usr/include/c++/13/bits/std_function.h /usr/include/c++/13/typeinfo \
- /usr/include/c++/13/unordered_map \
- /usr/include/c++/13/bits/requires_hosted.h \
- /usr/include/c++/13/bits/unordered_map.h \
- /usr/include/c++/13/bits/hashtable.h \
- /usr/include/c++/13/bits/hashtable_policy.h \
- /usr/include/c++/13/ext/aligned_buffer.h \
- /usr/include/c++/13/ext/alloc_traits.h \
- /usr/include/c++/13/bits/alloc_traits.h \
- /usr/include/c++/13/bits/memoryfwd.h \
+ /usr/include/c++/13/memory /usr/include/c++/13/bits/memoryfwd.h \
  /usr/include/c++/13/bits/allocator.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
  /usr/include/c++/13/bits/new_allocator.h \
- /usr/include/c++/13/bits/enable_special_members.h \
- /usr/include/c++/13/bits/node_handle.h \
- /usr/include/c++/13/bits/range_access.h \
- /usr/include/c++/13/bits/erase_if.h \
- /usr/include/c++/13/bits/memory_resource.h /usr/include/c++/13/cstddef \
- /usr/include/c++/13/bits/uses_allocator_args.h \
- /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_uninitialized.h \
- /usr/include/c++/13/bits/stl_vector.h \
- /usr/include/c++/13/bits/stl_bvector.h \
- /usr/include/c++/13/bits/vector.tcc /usr/include/c++/13/array \
- /usr/include/c++/13/compare /usr/include/c++/13/memory \
+ /usr/include/c++/13/bits/stl_uninitialized.h \
+ /usr/include/c++/13/ext/alloc_traits.h \
+ /usr/include/c++/13/bits/alloc_traits.h \
  /usr/include/c++/13/bits/stl_raw_storage_iter.h \
  /usr/include/c++/13/bits/align.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
@@ -116,6 +97,7 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/c++/13/bits/unique_ptr.h \
  /usr/include/c++/13/bits/shared_ptr.h /usr/include/c++/13/iosfwd \
+ /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/c++/13/bits/stringfwd.h /usr/include/c++/13/bits/postypes.h \
  /usr/include/c++/13/cwchar /usr/include/wchar.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
@@ -126,6 +108,7 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
  /usr/include/c++/13/bits/shared_ptr_base.h \
  /usr/include/c++/13/bits/allocated_ptr.h \
+ /usr/include/c++/13/ext/aligned_buffer.h \
  /usr/include/c++/13/ext/atomicity.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
@@ -149,8 +132,7 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: \
  /usr/include/c++/13/bits/shared_ptr_atomic.h \
  /usr/include/c++/13/bits/atomic_base.h \
  /usr/include/c++/13/bits/atomic_lockfree_defines.h \
- /usr/include/c++/13/backward/auto_ptr.h \
- /usr/include/c++/13/pstl/glue_memory_defs.h /usr/include/c++/13/string \
+ /usr/include/c++/13/backward/auto_ptr.h /usr/include/c++/13/string \
  /usr/include/c++/13/bits/char_traits.h \
  /usr/include/c++/13/bits/localefwd.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h \
@@ -158,8 +140,8 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/13/cctype \
  /usr/include/ctype.h /usr/include/c++/13/bits/ostream_insert.h \
  /usr/include/c++/13/bits/cxxabi_forced.h \
- /usr/include/c++/13/bits/basic_string.h /usr/include/c++/13/string_view \
- /usr/include/c++/13/bits/string_view.tcc \
+ /usr/include/c++/13/bits/range_access.h \
+ /usr/include/c++/13/bits/basic_string.h \
  /usr/include/c++/13/ext/string_conversions.h /usr/include/c++/13/cstdio \
  /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
@@ -169,7 +151,7 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: \
  /usr/include/c++/13/cerrno /usr/include/c++/13/bits/charconv.h \
  /usr/include/c++/13/bits/basic_string.tcc /usr/include/c++/13/utility \
  /usr/include/c++/13/bits/stl_relops.h \
- /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src/googlemock/include/gmock/internal/gmock-internal-utils.h \
+ /home/masha/Documents/RK/build/_deps/googletest-src/googlemock/include/gmock/internal/gmock-internal-utils.h \
  /usr/include/c++/13/ostream /usr/include/c++/13/ios \
  /usr/include/c++/13/bits/ios_base.h \
  /usr/include/c++/13/bits/locale_classes.h \
@@ -187,11 +169,11 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: \
  /usr/include/c++/13/bits/locale_facets.tcc \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc \
- /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src/googlemock/include/gmock/internal/gmock-port.h \
+ /home/masha/Documents/RK/build/_deps/googletest-src/googlemock/include/gmock/internal/gmock-port.h \
  /usr/include/assert.h /usr/include/c++/13/stdlib.h \
  /usr/include/c++/13/cstdint /usr/include/c++/13/iostream \
  /usr/include/c++/13/istream /usr/include/c++/13/bits/istream.tcc \
- /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h \
+ /home/masha/Documents/RK/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h \
  /usr/include/string.h /usr/include/strings.h /usr/include/c++/13/limits \
  /usr/include/x86_64-linux-gnu/sys/stat.h \
  /usr/include/x86_64-linux-gnu/bits/stat.h \
@@ -214,9 +196,12 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: \
  /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
  /usr/include/libintl.h /usr/include/c++/13/bits/codecvt.h \
  /usr/include/c++/13/bits/locale_facets_nonio.tcc \
- /usr/include/c++/13/bits/locale_conv.h \
- /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-port.h \
- /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port-arch.h \
+ /usr/include/c++/13/bits/locale_conv.h /usr/include/c++/13/vector \
+ /usr/include/c++/13/bits/stl_vector.h \
+ /usr/include/c++/13/bits/stl_bvector.h \
+ /usr/include/c++/13/bits/vector.tcc \
+ /home/masha/Documents/RK/build/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-port.h \
+ /home/masha/Documents/RK/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port-arch.h \
  /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
@@ -224,11 +209,10 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
  /usr/include/linux/close_range.h /usr/include/regex.h \
- /usr/include/c++/13/any /usr/include/c++/13/optional \
- /usr/include/c++/13/variant /usr/include/c++/13/bits/parse_numbers.h \
- /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-port.h \
- /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src/googletest/include/gtest/gtest.h \
- /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-internal.h \
+ /home/masha/Documents/RK/build/_deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-port.h \
+ /home/masha/Documents/RK/build/_deps/googletest-src/googletest/include/gtest/gtest.h \
+ /usr/include/c++/13/cstddef \
+ /home/masha/Documents/RK/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-internal.h \
  /usr/include/x86_64-linux-gnu/sys/wait.h /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
@@ -257,31 +241,32 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: \
  /usr/include/c++/13/sstream /usr/include/c++/13/bits/sstream.tcc \
  /usr/include/c++/13/map /usr/include/c++/13/bits/stl_tree.h \
  /usr/include/c++/13/bits/stl_map.h \
- /usr/include/c++/13/bits/stl_multimap.h /usr/include/c++/13/set \
+ /usr/include/c++/13/bits/stl_multimap.h \
+ /usr/include/c++/13/bits/erase_if.h /usr/include/c++/13/set \
  /usr/include/c++/13/bits/stl_set.h \
  /usr/include/c++/13/bits/stl_multiset.h \
- /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src/googletest/include/gtest/gtest-message.h \
- /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-filepath.h \
- /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-string.h \
- /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h \
+ /home/masha/Documents/RK/build/_deps/googletest-src/googletest/include/gtest/gtest-message.h \
+ /home/masha/Documents/RK/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-filepath.h \
+ /home/masha/Documents/RK/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-string.h \
+ /home/masha/Documents/RK/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h \
  /usr/include/c++/13/cxxabi.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/cxxabi_tweaks.h \
- /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src/googletest/include/gtest/gtest-death-test.h \
- /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-death-test-internal.h \
- /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src/googletest/include/gtest/gtest-matchers.h \
+ /home/masha/Documents/RK/build/_deps/googletest-src/googletest/include/gtest/gtest-death-test.h \
+ /home/masha/Documents/RK/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-death-test-internal.h \
+ /home/masha/Documents/RK/build/_deps/googletest-src/googletest/include/gtest/gtest-matchers.h \
  /usr/include/c++/13/atomic \
- /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src/googletest/include/gtest/gtest-printers.h \
- /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-printers.h \
- /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src/googletest/include/gtest/gtest-param-test.h \
+ /home/masha/Documents/RK/build/_deps/googletest-src/googletest/include/gtest/gtest-printers.h \
+ /home/masha/Documents/RK/build/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-printers.h \
+ /home/masha/Documents/RK/build/_deps/googletest-src/googletest/include/gtest/gtest-param-test.h \
  /usr/include/c++/13/iterator /usr/include/c++/13/bits/stream_iterator.h \
- /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h \
+ /home/masha/Documents/RK/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h \
  /usr/include/c++/13/cassert \
- /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src/googletest/include/gtest/gtest-test-part.h \
- /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src/googletest/include/gtest/gtest_prod.h \
- /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src/googletest/include/gtest/gtest-typed-test.h \
- /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h \
- /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src/googlemock/include/gmock/internal/gmock-pp.h \
- /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src/googlemock/include/gmock/gmock-cardinalities.h \
+ /home/masha/Documents/RK/build/_deps/googletest-src/googletest/include/gtest/gtest-test-part.h \
+ /home/masha/Documents/RK/build/_deps/googletest-src/googletest/include/gtest/gtest_prod.h \
+ /home/masha/Documents/RK/build/_deps/googletest-src/googletest/include/gtest/gtest-typed-test.h \
+ /home/masha/Documents/RK/build/_deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h \
+ /home/masha/Documents/RK/build/_deps/googletest-src/googlemock/include/gmock/internal/gmock-pp.h \
+ /home/masha/Documents/RK/build/_deps/googletest-src/googlemock/include/gmock/gmock-cardinalities.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
  /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
@@ -290,9 +275,9 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
- /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src/googlemock/include/gmock/gmock-function-mocker.h \
- /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src/googlemock/include/gmock/gmock-spec-builders.h \
- /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src/googlemock/include/gmock/gmock-matchers.h \
+ /home/masha/Documents/RK/build/_deps/googletest-src/googlemock/include/gmock/gmock-function-mocker.h \
+ /home/masha/Documents/RK/build/_deps/googletest-src/googlemock/include/gmock/gmock-spec-builders.h \
+ /home/masha/Documents/RK/build/_deps/googletest-src/googlemock/include/gmock/gmock-matchers.h \
  /usr/include/c++/13/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -303,25 +288,13 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /usr/include/c++/13/bits/specfun.h /usr/include/c++/13/tr1/gamma.tcc \
- /usr/include/c++/13/tr1/special_function_util.h \
- /usr/include/c++/13/tr1/bessel_function.tcc \
- /usr/include/c++/13/tr1/beta_function.tcc \
- /usr/include/c++/13/tr1/ell_integral.tcc \
- /usr/include/c++/13/tr1/exp_integral.tcc \
- /usr/include/c++/13/tr1/hypergeometric.tcc \
- /usr/include/c++/13/tr1/legendre_function.tcc \
- /usr/include/c++/13/tr1/modified_bessel_func.tcc \
- /usr/include/c++/13/tr1/poly_hermite.tcc \
- /usr/include/c++/13/tr1/poly_laguerre.tcc \
- /usr/include/c++/13/tr1/riemann_zeta.tcc \
- /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-matchers.h \
- /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src/googlemock/include/gmock/gmock-more-actions.h \
- /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-generated-actions.h \
- /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src/googlemock/include/gmock/gmock-more-matchers.h \
- /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src/googlemock/include/gmock/gmock-nice-strict.h \
- /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src/googlemock/src/gmock-cardinalities.cc \
- /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src/googlemock/src/gmock-internal-utils.cc \
- /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src/googlemock/src/gmock-matchers.cc \
- /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src/googlemock/src/gmock-spec-builders.cc \
- /home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src/googlemock/src/gmock.cc
+ /home/masha/Documents/RK/build/_deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-matchers.h \
+ /home/masha/Documents/RK/build/_deps/googletest-src/googlemock/include/gmock/gmock-more-actions.h \
+ /home/masha/Documents/RK/build/_deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-generated-actions.h \
+ /home/masha/Documents/RK/build/_deps/googletest-src/googlemock/include/gmock/gmock-more-matchers.h \
+ /home/masha/Documents/RK/build/_deps/googletest-src/googlemock/include/gmock/gmock-nice-strict.h \
+ /home/masha/Documents/RK/build/_deps/googletest-src/googlemock/src/gmock-cardinalities.cc \
+ /home/masha/Documents/RK/build/_deps/googletest-src/googlemock/src/gmock-internal-utils.cc \
+ /home/masha/Documents/RK/build/_deps/googletest-src/googlemock/src/gmock-matchers.cc \
+ /home/masha/Documents/RK/build/_deps/googletest-src/googlemock/src/gmock-spec-builders.cc \
+ /home/masha/Documents/RK/build/_deps/googletest-src/googlemock/src/gmock.cc

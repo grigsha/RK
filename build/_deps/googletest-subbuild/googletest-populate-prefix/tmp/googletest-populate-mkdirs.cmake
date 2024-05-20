@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "/home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-src"
-  "/home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-build"
-  "/home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-subbuild/googletest-populate-prefix"
-  "/home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-subbuild/googletest-populate-prefix/tmp"
-  "/home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp"
-  "/home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-subbuild/googletest-populate-prefix/src"
-  "/home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp"
+  "/home/masha/Documents/RK/build/_deps/googletest-src"
+  "/home/masha/Documents/RK/build/_deps/googletest-build"
+  "/home/masha/Documents/RK/build/_deps/googletest-subbuild/googletest-populate-prefix"
+  "/home/masha/Documents/RK/build/_deps/googletest-subbuild/googletest-populate-prefix/tmp"
+  "/home/masha/Documents/RK/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp"
+  "/home/masha/Documents/RK/build/_deps/googletest-subbuild/googletest-populate-prefix/src"
+  "/home/masha/Documents/RK/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/home/masha/Documents/RK/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/home/masha/Masha/cpp_design_patterns/Patterns/TemplatePattern/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/home/masha/Documents/RK/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp${cfgdir}") # cfgdir has leading slash
 endif()
